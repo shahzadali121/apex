@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".question1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/Question"
+        android:text ="(1) MAD stand for_________"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Application devlopment"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/oprtion1"
+            android:textSize="20sp"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile App design"
+            android:layout_marginTop="10dp"
+            android:id="@+id/oprtion2"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"/>
+
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/next"
+        android:textSize="20sp">
+
+    </Button>
+
+
+    <TextView
+        android:id="@+id/Question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="(2) Which softwer is used for andriod app devlopment?"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Andriod Studio"
+            android:layout_marginTop="10dp"
+            android:id="@+id/oprtion3"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MS Office"
+            android:layout_marginTop="10dp"
+            android:id="@+id/oprtion4"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/next2"
+        android:textSize="20sp">
+
+    </Button>
+
+
+    <TextView
+        android:id="@+id/Question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="(3) What is APK in android?"
+        android:textSize="20sp">
+
+    </TextView>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+    <RadioButton
+        android:id="@+id/oprtion5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Android Packages"
+        android:textSize="20sp" />
+
+
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Packaing kit"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/oprtion6"
+            android:textSize="20sp"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/next3"
+        android:textSize="20sp">
+
+    </Button>
+
+
+
+</LinearLayout>

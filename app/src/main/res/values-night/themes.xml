@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ApexAcademy" parent="Theme.Material3.DayNight.NoActionBar">
+       <item name="colorPrimary">@color/myp</item>
+        <item name="colorPrimaryVariant">@color/myp1</item>
+        <item name="colorSecondary">@color/myp</item>
+        <item name="colorSecondaryVariant">@color/myp1</item>
+        <item name="android:statusBarColor">@color/myp</item>
+    </style>
+</resources>
